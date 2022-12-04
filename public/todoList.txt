@@ -1,0 +1,37 @@
+--Show Moves For Both Players
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Save Both Player Moves to The Server
+  -Server side listener for Move Updates
+  -Client Side emiter for Move Updates
+
+
+Update Border After Turn is Made
+
+Reset Button
+
+Track High Score in a DataBase
+
+Add finishing Touches of Css
+
+Make Spooky (monsters pop up randomly must click to kill)

@@ -1,0 +1,179 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Creepster';
+  font-size: 80px;
+}
+
+#scoreBoard {
+  height: 15%;
+  width: 100%;
+  border: 15px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+#playerO {
+  width: 40%;
+  border: 1px solid black;
+  background-color: darkgray;
+  font-size: 28px;
+}
+
+#playerX {
+ width: 40%;
+  border: 1px solid black;
+  background-color: darkgray;
+  font-size: 28px;
+}
+.playerNone {
+  display: none;
+}
+
+.GameBoard{
+ 
+  height: 600px;
+  width:  600px;
+  border-radius: 30px;
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 40px red;
+  
+ 
+}
+.topleft{
+  height: 198px;
+  width: 198px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topleft:hover{
+  background-color:red;
+}
+.topmiddle{
+  height: 198px;
+  width: 198px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topmiddle:hover{
+  background-color:red;
+}
+.topright{
+  height: 198px;
+  width: 198px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topright:hover{
+  background-color:red;
+}
+.middleleft{
+  height: 198px;
+  width: 198px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.middleleft:hover{
+  background-color:red;
+}
+.middlemiddle{
+  height: 198px;
+  width: 198px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.middlemiddle:hover{
+  background-color:red;
+}
+
+.middleright{
+  height: 198px;
+  width: 198px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.middleright:hover{
+  background-color:red;
+}
+.bottomleft{
+  height: 198px;
+  width: 198px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottomleft:hover{
+  background-color:red;
+}
+.bottommiddle{
+  height: 198px;
+  width: 198px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottommiddle:hover{
+  background-color:red;
+}
+.bottomright{
+  height: 198px;
+  width: 198px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottomright:hover{
+  background-color:red;
+}
+.Tic{
+  text-align: center;
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+body{
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.px{
+  color:gray;
+  text-align: center;
+}
+.po{
+  color: rgba(255,0,0,.55);
+  text-align: center;
+}
+
+.playerTurn {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: white;
+}
+
+#start-game {
+  font-size: 20px;
+}
+
+  #start-game:hover {
+    color: skyblue;
+    cursor: pointer;
+  }
